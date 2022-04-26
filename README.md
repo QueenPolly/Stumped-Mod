@@ -1,9 +1,7 @@
-# Stumped-Mod
+# Welcome to the Stumped mod
 
-## Setup
+## What does it do?
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+It adds various trees to Minecraft
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+#### UwU

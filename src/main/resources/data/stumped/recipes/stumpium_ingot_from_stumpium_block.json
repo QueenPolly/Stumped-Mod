@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stumpium_ingot",
+  "ingredients": [
+    {
+      "item": "stumped:stumpium_block"
+    }
+  ],
+  "result": {
+    "item": "stumped:stumpium_ingot",
+    "count": 9
+  }
+}

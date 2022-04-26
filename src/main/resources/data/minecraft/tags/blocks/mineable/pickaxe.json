@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "stumped:stumpium_block",
+    "stumped:stumpium_ore",
+    "stumped:deepslate_stumpium_ore",
+    "stumped:netherrack_stumpium_ore",
+    "stumped:raw_stumpium_block"
+  ]
+}

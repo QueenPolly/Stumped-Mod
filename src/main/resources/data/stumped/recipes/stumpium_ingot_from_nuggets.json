@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stumpium_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "stumped:stumpium_nugget"
+    }
+  },
+  "result": {
+    "item": "stumped:stumpium_ingot"
+  }
+}

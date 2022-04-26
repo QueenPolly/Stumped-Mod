@@ -1,0 +1,13 @@
+{
+  "block.stumped.stumpium_block": "Stumpium Block",
+  "block.stumped.stumpium_ore": "Stumpium Ore",
+  "block.stumped.deepslate_stumpium_ore": "Deepslate Stumpium Ore",
+  "block.stumped.netherrack_stumpium_ore": "Nether Stumpium Ore",
+  "block.stumped.raw_stumpium_block": "Raw Stumpium",
+
+  "item.stumped.stumpium_ingot": "Stumpium Ingot",
+  "item.stumped.stumpium_nugget": "Stumpium Nugget",
+
+  "itemGroup.stumped.stumped_blocks": "Stumped Blocks",
+  "itemGroup.stumped.stumped_items": "Stumped Items"
+}

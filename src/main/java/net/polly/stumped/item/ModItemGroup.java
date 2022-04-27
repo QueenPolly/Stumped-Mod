@@ -9,8 +9,7 @@ import net.polly.stumped.block.ModBlocks;
 
 public class ModItemGroup {
     public static final ItemGroup STUMPED_BLOCKS = FabricItemGroupBuilder.build(new Identifier(StumpedMod.MOD_ID, "stumped_blocks"),
-            () -> new ItemStack(ModBlocks.TEST_PLANKS));
-
+            () -> new ItemStack(ModBlocks.TEMPLATE_PLANKS));
     public static final ItemGroup STUMPED_ITEMS = FabricItemGroupBuilder.build(new Identifier(StumpedMod.MOD_ID, "stumped_items"),
-            () -> new ItemStack(ModBlocks.TEST_SAPLING));
+            () -> new ItemStack(ModBlocks.TEMPLATE_SAPLING));
 }

@@ -10,7 +10,6 @@ public interface SignTypeAccessor {
     static SignType newSignType(String name) {
         throw new AssertionError();
     }
-
     @Invoker("register")
     static SignType registerNew(SignType type) {
         throw new AssertionError();

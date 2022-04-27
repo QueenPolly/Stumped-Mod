@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "stumped:template_planks"
+    }
+  },
+  "result": {
+    "item": "stumped:template_stairs",
+    "count": 4
+  }
+}

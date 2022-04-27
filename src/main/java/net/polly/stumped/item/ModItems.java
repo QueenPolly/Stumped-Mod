@@ -13,11 +13,9 @@ public class ModItems {
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(StumpedMod.MOD_ID, name), item);
     }
-
-    public static final Item TEST_SIGN = registerItem("test_sign",
+    public static final Item TEMPLATE_SIGN = registerItem("template_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).maxCount(16),
-                    ModBlocks.TEST_SIGN_BLOCK, ModBlocks.TEST_WALL_SIGN_BLOCK));
-
+                    ModBlocks.TEMPLATE_SIGN_BLOCK, ModBlocks.TEMPLATE_WALL_SIGN_BLOCK));
     public static void registerModItems() {
         StumpedMod.LOGGER.info("Registering Mod Items for "+StumpedMod.MOD_ID);
     }

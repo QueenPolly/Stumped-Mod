@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "stumped:test_log",
-    "stumped:test_wood",
-    "stumped:stripped_test_log",
-    "stumped:stripped_test_wood"
-  ]
-}

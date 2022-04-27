@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#stumped:test_logs"
+    "#stumped:template_logs"
   ]
 }

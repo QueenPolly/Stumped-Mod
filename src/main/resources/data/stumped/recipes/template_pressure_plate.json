@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "stumped:template_planks"
+    }
+  },
+  "result": {
+    "item": "stumped:template_pressure_plate"
+  }
+}

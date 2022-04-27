@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "stumped:template_log",
+    "stumped:template_wood",
+    "stumped:stripped_template_log",
+    "stumped:stripped_template_wood"
+  ]
+}

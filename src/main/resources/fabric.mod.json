@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.polly.stumped.StumpedMod"
+    ],
+    "client": [
+      "net.polly.stumped.StumpedClientMod"
     ]
   },
   "mixins": [

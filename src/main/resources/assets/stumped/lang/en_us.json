@@ -1,12 +1,22 @@
 {
-  "block.stumped.stumpium_block": "Stumpium Block",
-  "block.stumped.stumpium_ore": "Stumpium Ore",
-  "block.stumped.deepslate_stumpium_ore": "Deepslate Stumpium Ore",
-  "block.stumped.netherrack_stumpium_ore": "Nether Stumpium Ore",
-  "block.stumped.raw_stumpium_block": "Raw Stumpium",
-
-  "item.stumped.stumpium_ingot": "Stumpium Ingot",
-  "item.stumped.stumpium_nugget": "Stumpium Nugget",
+  "block.stumped.test_log": "Test Log",
+  "block.stumped.test_wood": "Test Wood",
+  "block.stumped.stripped_test_log": "Stripped Test Log",
+  "block.stumped.stripped_test_wood": "Stripped Test Wood",
+  "block.stumped.test_planks": "Test Planks",
+  "block.stumped.test_button": "Test Button",
+  "block.stumped.test_pressure_plate": "Test Pressure Plate",
+  "block.stumped.test_fence": "Test Fence",
+  "block.stumped.test_wall": "Test Wall",
+  "block.stumped.test_fence_gate": "Test Fence Gate",
+  "block.stumped.test_door": "Test Door",
+  "block.stumped.test_trapdoor": "Test Trapdoor",
+  "block.stumped.test_slab": "Test Slab",
+  "block.stumped.test_stairs": "Test Stairs",
+  "block.stumped.test_sapling": "Test Sapling",
+  "block.stumped.test_leaves": "Test Leaves",
+  "block.stumped.test_sign": "Test Sign",
+  
 
   "itemGroup.stumped.stumped_blocks": "Stumped Blocks",
   "itemGroup.stumped.stumped_items": "Stumped Items"

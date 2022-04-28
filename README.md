@@ -23,7 +23,7 @@ Stumped adds these items to the game for each wood type:
 - Trapdoors
 - Saplings
 - Signs
-- Boats
+- ~~Boats~~
 
 ## What do you intend to add?
 

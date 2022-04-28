@@ -25,5 +25,16 @@ public class ModRegistries {
         instance.add(ModBlocks.TEMPLATE_LEAVES, 30, 60);
         instance.add(ModBlocks.TEMPLATE_FENCE_GATE, 5, 20);
         instance.add(ModBlocks.TEMPLATE_FENCE, 5, 20);
+
+        instance.add(ModBlocks.CHERRY_BLOSSOM_LOG, 5, 5);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_WOOD, 5, 5);
+        instance.add(ModBlocks.STRIPPED_CHERRY_BLOSSOM_LOG, 5, 5);
+        instance.add(ModBlocks.STRIPPED_CHERRY_BLOSSOM_WOOD, 5, 5);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_PLANKS, 5, 20);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_SLAB, 5, 20);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_STAIRS, 5, 20);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_LEAVES, 30, 60);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_FENCE_GATE, 5, 20);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_FENCE, 5, 20);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "stumped:block/cherry_blossom_planks",
+    "top": "stumped:block/cherry_blossom_planks",
+    "side": "stumped:block/cherry_blossom_planks"
+  }
+}

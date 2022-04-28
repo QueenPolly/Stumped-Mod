@@ -16,7 +16,26 @@
   "block.stumped.template_sapling": "Template Sapling",
   "block.stumped.template_leaves": "Template Leaves",
   "block.stumped.template_sign": "Template Sign",
-  
+
+  "block.stumped.cherry_blossom_log": "Cherry Blossom Log",
+  "block.stumped.cherry_blossom_wood": "Cherry Blossom Wood",
+  "block.stumped.stripped_cherry_blossom_log": "Stripped Cherry Blossom Log",
+  "block.stumped.stripped_cherry_blossom_wood": "Stripped Cherry Blossom Wood",
+  "block.stumped.cherry_blossom_planks": "Cherry Blossom Planks",
+  "block.stumped.cherry_blossom_button": "Cherry Blossom Button",
+  "block.stumped.cherry_blossom_pressure_plate": "Cherry Blossom Pressure Plate",
+  "block.stumped.cherry_blossom_fence": "Cherry Blossom Fence",
+  "block.stumped.cherry_blossom_wall": "Cherry Blossom Wall",
+  "block.stumped.cherry_blossom_fence_gate": "Cherry Blossom Fence Gate",
+  "block.stumped.cherry_blossom_door": "Cherry Blossom Door",
+  "block.stumped.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
+  "block.stumped.cherry_blossom_slab": "Cherry Blossom Slab",
+  "block.stumped.cherry_blossom_stairs": "Cherry Blossom Stairs",
+  "block.stumped.cherry_blossom_sapling": "Cherry Blossom Sapling",
+  "block.stumped.cherry_blossom_leaves": "Cherry Blossom Leaves",
+  "block.stumped.cherry_blossom_sign": "Cherry Blossom Sign",
+
+  "item.stumped.cherry": "Cherry",
 
   "itemGroup.stumped.stumped_blocks": "Stumped Blocks",
   "itemGroup.stumped.stumped_items": "Stumped Items"

@@ -27,7 +27,6 @@ Stumped adds these items to the game for each wood type:
 
 ## What do you intend to add?
 
-- Add Cherry Blossom Wood
 - Add different coloured Blossom Leaves
 - Add Cherry Blossom biome
 - Add boats

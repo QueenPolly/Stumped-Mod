@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "stumped:block/cherry_blossom_sapling"
+  }
+}

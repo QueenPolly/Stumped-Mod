@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "stumped:cherry_blossom_log",
+    "stumped:cherry_blossom_wood",
+    "stumped:stripped_cherry_blossom_log",
+    "stumped:stripped_cherry_blossom_wood"
+  ]
+}

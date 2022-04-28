@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "stumped:block/cherry_blossom_leaves"
+  }
+}

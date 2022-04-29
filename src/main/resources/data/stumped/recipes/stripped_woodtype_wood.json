@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "stumped:stripped_woodtype_log"
+    }
+  },
+  "result": {
+    "item": "stumped:stripped_woodtype_wood",
+    "count": 3
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_rh",
-  "textures": {
-    "top": "stumped:block/template_door_top",
-    "bottom": "stumped:block/template_door_bottom"
-  }
-}

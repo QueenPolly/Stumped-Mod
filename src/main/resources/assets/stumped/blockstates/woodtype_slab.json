@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stumped:block/woodtype_slab"
+    },
+    "type=double": {
+      "model": "stumped:block/woodtype_planks"
+    },
+    "type=top": {
+      "model": "stumped:block/woodtype_slab_top"
+    }
+  }
+}

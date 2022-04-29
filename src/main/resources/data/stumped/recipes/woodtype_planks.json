@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "stumped:woodtype_logs"
+    }
+  ],
+  "result": {
+    "item": "stumped:woodtype_planks",
+    "count": 4
+  }
+}

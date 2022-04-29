@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "stumped:cherry"
+    },
+    {
+      "item": "stumped:cherry"
+    },
+    {
+      "item": "stumped:cherry"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "stumped:cherry_pie"
+  }
+}

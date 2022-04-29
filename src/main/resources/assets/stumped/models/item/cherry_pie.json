@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "stumped:block/template_sapling"
+    "layer0": "stumped:item/cherry_pie"
   }
 }

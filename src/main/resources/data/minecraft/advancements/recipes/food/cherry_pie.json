@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "stumped:template_stairs"
+      "stumped:cherry_pie"
     ]
   },
   "criteria": {
-    "has_planks": {
+    "has_cherry": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "stumped:template_planks"
+              "stumped:cherry"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stumped:template_stairs"
+        "recipe": "stumped:cherry_pie"
       }
     }
   },
   "requirements": [
     [
-      "has_planks",
+      "has_cherry",
       "has_the_recipe"
     ]
   ]

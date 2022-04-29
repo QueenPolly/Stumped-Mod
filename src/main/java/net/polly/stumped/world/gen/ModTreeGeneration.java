@@ -8,9 +8,7 @@ import net.minecraft.world.gen.GenerationStep;
 
 public class ModTreeGeneration {
     public static void generateTrees() {
-        BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.PLAINS),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.TEMPLATE_PLACED.getKey().get());
-        BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.PLAINS),
+        BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CHERRY_BLOSSOM_PLACED.getKey().get());
     }
 }

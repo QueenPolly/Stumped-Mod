@@ -21,9 +21,6 @@ public class ModItems {
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(StumpedMod.MOD_ID, name), item);
     }
-    public static final Item TEMPLATE_SIGN = registerItem("template_sign",
-            new SignItem(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).maxCount(16),
-                    ModBlocks.TEMPLATE_SIGN_BLOCK, ModBlocks.TEMPLATE_WALL_SIGN_BLOCK));
 
     public static final Item CHERRY_BLOSSOM_SIGN = registerItem("cherry_blossom_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).maxCount(16),
@@ -31,6 +28,9 @@ public class ModItems {
 
     public static final Item CHERRY = registerItem("cherry",
             new Item(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).food(ModFoodComponents.CHERRY)));
+
+    public static final Item CHERRY_PIE = registerItem("cherry_pie",
+            new Item(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).food(ModFoodComponents.CHERRY_PIE)));
 
     public static void registerModItems() {
         StumpedMod.LOGGER.info("Registering Mod Items for "+StumpedMod.MOD_ID);

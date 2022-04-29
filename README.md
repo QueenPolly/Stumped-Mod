@@ -6,7 +6,7 @@ Stumped is a mod that expands the number of wood types that Minecraft has to off
 
 ## What features does it currently have?
 
-Stumped adds these items to the game for each wood type:
+#### Stumped adds these items to the game for each wood type:
 - Logs
 - Wood
 - Stripped Logs
@@ -25,9 +25,16 @@ Stumped adds these items to the game for each wood type:
 - Signs
 - ~~Boats~~
 
+#### The Current wood types added are
+- Cherry Blossom
+
 ## What do you intend to add?
 
-- Add different coloured Blossom Leaves
-- Add Cherry Blossom biome
-- Add boats
-- Add more wood types past Cherry Blossom
+- Add Biomes for different types of trees
+- Add boats for each type of tree
+
+## To do list:
+
+- More blossom leaf colours
+- Fix blossom leaves decaying on the trees they spawn on
+- Monkey puzzle trees

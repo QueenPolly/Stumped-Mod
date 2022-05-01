@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stumped:cherry_blossom_sign"
+    "stumped:blossom_sign",
+    "stumped:araucaria_sign"
   ]
 }

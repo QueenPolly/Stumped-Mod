@@ -22,15 +22,19 @@ public class ModItems {
         return Registry.register(Registry.ITEM, new Identifier(StumpedMod.MOD_ID, name), item);
     }
 
-    public static final Item CHERRY_BLOSSOM_SIGN = registerItem("cherry_blossom_sign",
+    public static final Item BLOSSOM_SIGN = registerItem("blossom_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).maxCount(16),
-                    ModBlocks.CHERRY_BLOSSOM_SIGN_BLOCK, ModBlocks.CHERRY_BLOSSOM_WALL_SIGN_BLOCK));
+                    ModBlocks.BLOSSOM_SIGN_BLOCK, ModBlocks.BLOSSOM_WALL_SIGN_BLOCK));
 
     public static final Item CHERRY = registerItem("cherry",
             new Item(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).food(ModFoodComponents.CHERRY)));
 
     public static final Item CHERRY_PIE = registerItem("cherry_pie",
             new Item(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).food(ModFoodComponents.CHERRY_PIE)));
+
+    public static final Item ARAUCARIA_SIGN = registerItem("araucaria_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.STUMPED_ITEMS).maxCount(16),
+                    ModBlocks.ARAUCARIA_SIGN_BLOCK, ModBlocks.ARAUCARIA_WALL_SIGN_BLOCK));
 
     public static void registerModItems() {
         StumpedMod.LOGGER.info("Registering Mod Items for "+StumpedMod.MOD_ID);

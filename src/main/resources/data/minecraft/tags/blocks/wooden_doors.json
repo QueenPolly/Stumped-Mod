@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stumped:cherry_blossom_door"
+    "stumped:blossom_door",
+    "stumped:araucaria_door"
   ]
 }

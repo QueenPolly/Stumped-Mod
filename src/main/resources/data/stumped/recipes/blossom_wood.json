@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "stumped:blossom_log"
+    }
+  },
+  "result": {
+    "item": "stumped:blossom_wood",
+    "count": 3
+  }
+}

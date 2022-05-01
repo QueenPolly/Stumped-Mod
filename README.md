@@ -25,8 +25,9 @@ Stumped is a mod that expands the number of wood types that Minecraft has to off
 - Signs
 - ~~Boats~~
 
-#### The Current wood types added are
-- Cherry Blossom
+#### The current wood types added are:
+- Blossom
+- Araucaria
 
 ## What do you intend to add?
 
@@ -36,5 +37,3 @@ Stumped is a mod that expands the number of wood types that Minecraft has to off
 ## To do list:
 
 - More blossom leaf colours
-- Fix blossom leaves decaying on the trees they spawn on
-- Monkey puzzle trees

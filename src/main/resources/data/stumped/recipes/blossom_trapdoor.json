@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "stumped:blossom_planks"
+    }
+  },
+  "result": {
+    "item": "stumped:blossom_trapdoor",
+    "count": 2
+  }
+}

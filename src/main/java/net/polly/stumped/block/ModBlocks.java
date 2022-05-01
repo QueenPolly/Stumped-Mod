@@ -12,63 +12,118 @@ import net.polly.stumped.StumpedMod;
 import net.polly.stumped.block.custom.*;
 import net.polly.stumped.block.entity.ModSignTypes;
 import net.polly.stumped.item.ModItemGroup;
-import net.polly.stumped.world.feature.tree.CherryBlossomSaplingGenerator;
+import net.polly.stumped.world.feature.tree.BlossomSaplingGenerator;
+import net.polly.stumped.world.feature.tree.AraucariaSaplingGenerator;
 
 public class ModBlocks {
 
-    //Cherry Blocks
-    public static final Block CHERRY_BLOSSOM_LOG = registerBlock("cherry_blossom_log",
+    //Blossom Blocks
+    public static final Block BLOSSOM_LOG = registerBlock("blossom_log",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.OAK_LOG).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_WOOD = registerBlock("cherry_blossom_wood",
+    public static final Block BLOSSOM_WOOD = registerBlock("blossom_wood",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.OAK_WOOD).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block STRIPPED_CHERRY_BLOSSOM_LOG = registerBlock("stripped_cherry_blossom_log",
+    public static final Block STRIPPED_BLOSSOM_LOG = registerBlock("stripped_blossom_log",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.STRIPPED_OAK_LOG).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block STRIPPED_CHERRY_BLOSSOM_WOOD = registerBlock("stripped_cherry_blossom_wood",
+    public static final Block STRIPPED_BLOSSOM_WOOD = registerBlock("stripped_blossom_wood",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.STRIPPED_OAK_WOOD).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_PLANKS = registerBlock("cherry_blossom_planks",
+    public static final Block BLOSSOM_PLANKS = registerBlock("blossom_planks",
             new Block(FabricBlockSettings
                     .copy(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_SLAB = registerBlock("cherry_blossom_slab",
+    public static final Block BLOSSOM_SLAB = registerBlock("blossom_slab",
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.OAK_SLAB).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_STAIRS = registerBlock("cherry_blossom_stairs",
-            new ModStairsBlock(ModBlocks.CHERRY_BLOSSOM_PLANKS.getDefaultState(), FabricBlockSettings
+    public static final Block BLOSSOM_STAIRS = registerBlock("blossom_stairs",
+            new ModStairsBlock(ModBlocks.BLOSSOM_PLANKS.getDefaultState(), FabricBlockSettings
                     .copy(Blocks.OAK_STAIRS).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_LEAVES = registerBlock("cherry_blossom_leaves",
+    public static final Block BLOSSOM_LEAVES = registerBlock("blossom_leaves",
             new LeavesBlock(FabricBlockSettings
                     .copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_FENCE = registerBlock("cherry_blossom_fence",
+    public static final Block BLOSSOM_FENCE = registerBlock("blossom_fence",
             new FenceBlock(FabricBlockSettings
                     .copy(Blocks.OAK_FENCE).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_FENCE_GATE = registerBlock("cherry_blossom_fence_gate",
+    public static final Block BLOSSOM_FENCE_GATE = registerBlock("blossom_fence_gate",
             new FenceGateBlock(FabricBlockSettings
                     .copy(Blocks.OAK_FENCE_GATE).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_BUTTON = registerBlock("cherry_blossom_button",
+    public static final Block BLOSSOM_BUTTON = registerBlock("blossom_button",
             new ModWoodenButtonBlock(FabricBlockSettings
                     .copy(Blocks.OAK_BUTTON).strength(4.0f).requiresTool().noCollision()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_PRESSURE_PLATE = registerBlock("cherry_blossom_pressure_plate",
+    public static final Block BLOSSOM_PRESSURE_PLATE = registerBlock("blossom_pressure_plate",
             new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
                     .copy(Blocks.OAK_PRESSURE_PLATE).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_DOOR = registerBlock("cherry_blossom_door",
+    public static final Block BLOSSOM_DOOR = registerBlock("blossom_door",
             new ModDoorBlock(FabricBlockSettings
                     .copy(Blocks.OAK_DOOR).strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_TRAPDOOR = registerBlock("cherry_blossom_trapdoor",
+    public static final Block BLOSSOM_TRAPDOOR = registerBlock("blossom_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings
                     .copy(Blocks.OAK_TRAPDOOR).strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.STUMPED_BLOCKS);
-    public static final Block CHERRY_BLOSSOM_SAPLING = registerBlock("cherry_blossom_sapling",
-            new ModSaplingBlock(new CherryBlossomSaplingGenerator(),FabricBlockSettings
+    public static final Block BLOSSOM_SAPLING = registerBlock("blossom_sapling",
+            new ModSaplingBlock(new BlossomSaplingGenerator(),FabricBlockSettings
                     .copy(Blocks.OAK_SAPLING)), ModItemGroup.STUMPED_ITEMS);
-    public static final Block POTTED_CHERRY_BLOSSOM_SAPLING = registerBlockWithoutBlockItem("potted_cherry_blossom_sapling",
-            new FlowerPotBlock(ModBlocks.CHERRY_BLOSSOM_SAPLING, FabricBlockSettings
+    public static final Block POTTED_BLOSSOM_SAPLING = registerBlockWithoutBlockItem("potted_blossom_sapling",
+            new FlowerPotBlock(ModBlocks.BLOSSOM_SAPLING, FabricBlockSettings
                     .copy(Blocks.POTTED_OAK_SAPLING).nonOpaque()), ModItemGroup.STUMPED_ITEMS);
-    public static final Block CHERRY_BLOSSOM_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("cherry_blossom_wall_sign",
-            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.CHERRY_BLOSSOM), ModItemGroup.STUMPED_ITEMS);
-    public static final Block CHERRY_BLOSSOM_SIGN_BLOCK = registerBlockWithoutBlockItem("cherry_blossom_sign",
-            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.CHERRY_BLOSSOM), ModItemGroup.STUMPED_ITEMS);
+    public static final Block BLOSSOM_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("blossom_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.BLOSSOM), ModItemGroup.STUMPED_ITEMS);
+    public static final Block BLOSSOM_SIGN_BLOCK = registerBlockWithoutBlockItem("blossom_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.BLOSSOM), ModItemGroup.STUMPED_ITEMS);
+
+    //Araucaria Blocks
+    public static final Block ARAUCARIA_LOG = registerBlock("araucaria_log",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_LOG).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_WOOD = registerBlock("araucaria_wood",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_WOOD).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block STRIPPED_ARAUCARIA_LOG = registerBlock("stripped_araucaria_log",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.STRIPPED_OAK_LOG).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block STRIPPED_ARAUCARIA_WOOD = registerBlock("stripped_araucaria_wood",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.STRIPPED_OAK_WOOD).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_PLANKS = registerBlock("araucaria_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_SLAB = registerBlock("araucaria_slab",
+            new SlabBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_SLAB).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_STAIRS = registerBlock("araucaria_stairs",
+            new ModStairsBlock(ModBlocks.ARAUCARIA_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_LEAVES = registerBlock("araucaria_leaves",
+            new LeavesBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_FENCE = registerBlock("araucaria_fence",
+            new FenceBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_FENCE).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_FENCE_GATE = registerBlock("araucaria_fence_gate",
+            new FenceGateBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_FENCE_GATE).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_BUTTON = registerBlock("araucaria_button",
+            new ModWoodenButtonBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_BUTTON).strength(4.0f).requiresTool().noCollision()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_PRESSURE_PLATE = registerBlock("araucaria_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
+                    .copy(Blocks.OAK_PRESSURE_PLATE).strength(4.0f).requiresTool()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_DOOR = registerBlock("araucaria_door",
+            new ModDoorBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_DOOR).strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_TRAPDOOR = registerBlock("araucaria_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_TRAPDOOR).strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.STUMPED_BLOCKS);
+    public static final Block ARAUCARIA_SAPLING = registerBlock("araucaria_sapling",
+            new ModSaplingBlock(new AraucariaSaplingGenerator(),FabricBlockSettings
+                    .copy(Blocks.OAK_SAPLING)), ModItemGroup.STUMPED_ITEMS);
+    public static final Block POTTED_ARAUCARIA_SAPLING = registerBlockWithoutBlockItem("potted_araucaria_sapling",
+            new FlowerPotBlock(ModBlocks.ARAUCARIA_SAPLING, FabricBlockSettings
+                    .copy(Blocks.POTTED_OAK_SAPLING).nonOpaque()), ModItemGroup.STUMPED_ITEMS);
+    public static final Block ARAUCARIA_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("araucaria_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.ARAUCARIA), ModItemGroup.STUMPED_ITEMS);
+    public static final Block ARAUCARIA_SIGN_BLOCK = registerBlockWithoutBlockItem("araucaria_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.ARAUCARIA), ModItemGroup.STUMPED_ITEMS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

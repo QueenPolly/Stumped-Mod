@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "stumped:block/blossom_pressure_plate" },
+    "powered=true": { "model": "stumped:block/blossom_pressure_plate_down" }
+  }
+}

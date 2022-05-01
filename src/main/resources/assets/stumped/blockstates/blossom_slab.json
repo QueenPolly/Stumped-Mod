@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stumped:block/blossom_slab"
+    },
+    "type=double": {
+      "model": "stumped:block/blossom_planks"
+    },
+    "type=top": {
+      "model": "stumped:block/blossom_slab_top"
+    }
+  }
+}

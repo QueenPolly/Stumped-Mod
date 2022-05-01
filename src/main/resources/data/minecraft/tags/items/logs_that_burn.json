@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#stumped:cherry_blossom_logs"
+    "#stumped:blossom_logs",
+    "#stumped:araucaria_logs"
   ]
 }

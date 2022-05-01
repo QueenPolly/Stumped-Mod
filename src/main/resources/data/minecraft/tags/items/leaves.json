@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stumped:cherry_blossom_leaves"
+    "stumped:blossom_leaves",
+    "stumped:araucaria_leaves"
   ]
 }

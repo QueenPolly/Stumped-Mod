@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stumped:cherry_blossom_planks"
+    "stumped:blossom_planks",
+    "stumped:araucaria_planks"
   ]
 }
